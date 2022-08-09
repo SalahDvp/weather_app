@@ -1,0 +1,100 @@
+  body{
+
+        height: 100vh;
+        display: flex;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        background: #222;
+        background-image: url('https://source.unsplash.com/random/1920x1080/?landscape') ;
+        font-size: sans-serif;
+        color: white;
+        font-family: 'Hind Siliguri', sans-serif;
+        font-size: 120%;
+
+}
+.card{
+        background-color: #000000d0;
+        color: white;
+        padding: 2em;
+        border-radius: 30px;
+        width: 100%;
+        max-width: 470px;
+        margin: 1em;
+        
+
+}
+button{
+        margin: 0.5em;
+        border-radius: 50%;
+        border: none;
+        height: 2.5em;
+}
+.search{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+input.search-bar{
+        border: none;
+        outline: none;
+        padding: 0.5em;
+        border-radius: 20px;
+        background-color: #7c7c7c2b ;
+        color: white;
+        font-family: inherit;
+        font-size: 100%;
+        width: calc(100% - 100px);
+}
+button{
+        margin: 0.5em;
+        border-radius: 50%;
+        border: none;
+        height: 43px;
+        width: 43 px;
+        outline: none;
+        background-color: #7c7c7c2b;
+        color: white;
+        cursor: pointer;
+        transition: 0.8s ease-out;
+}
+.temperature{
+        margin: 0;
+        margin-bottom: 15px;
+}
+.icon_ , .temperature-degree{
+        cursor: pointer;
+}
+.location{
+        overflow: hidden;
+        width: 100%;
+        margin-bottom: -20px;
+}
+.location h1{
+        width: 25%;
+        margin-bottom: 50px;
+        float: left;
+        padding-right: 20px;
+
+}
+.location canvas{
+        margin: 0;
+        float: right;
+        border: 0.2vw;
+
+}
+.degree-section{
+        overflow: hidden;
+        width: 100%;
+}
+.degree-section h3{
+        margin-top: -2px;
+        float: left;
+        padding-right: 20px;
+
+}
+.degree-section span{
+        margin-top: 50px;
+        border: 0.2vw;
+
+}
